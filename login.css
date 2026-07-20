@@ -98,7 +98,7 @@ body {
     padding-bottom: 5px;
 
 }
-
+/* کانتینر فرم */
 .continer-form {
     width: 40%;
     height: 83%;
@@ -110,7 +110,7 @@ body {
     background-color: rgb(245, 245, 245);
 
 }
-
+/* اینپوت های نام و نام خانوادگی */
 .input-continer1 {
     display: flex;
     padding-left:30px ;
@@ -125,11 +125,21 @@ body {
 .inpu1-box {
     display: flex;
     flex-direction: column;
+    
 }
 
 .inpu2-box {
     display: flex;
     flex-direction: column;
+}
+
+.inpu1-box input {
+   padding-left:10px;
+
+}
+
+.inpu2-box input{
+  padding-left: 10px;
 }
 
 .input-continer1 input {
@@ -138,7 +148,7 @@ body {
     border: none;
     border-radius:10px;
 }
-
+/* اینپوت های اطلاعات کاربر */
 .inputha {
     display: flex;
     flex-direction: column;
@@ -156,7 +166,7 @@ body {
     border-radius: 10px;
     ;
 }
-
+/* تایید قوانین وب */
 .ssomit{
     display: flex;
     gap: 5px;
@@ -188,6 +198,7 @@ body {
 
     
 }
+/* دکمه ورود به حساب کاربر */
 .btn-signup button{
 background-color: rgb(54, 54, 54);
 color: aliceblue;
@@ -205,7 +216,7 @@ border-radius: 40px;
     margin-bottom:50px;
 }
 
-
+/* بنر فرم */
 .text-baner{
     width: 500px;
     position: absolute;
