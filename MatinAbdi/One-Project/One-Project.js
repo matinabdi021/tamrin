@@ -5,7 +5,7 @@ const UlTodoO=document.getElementById('ListItemUl');
 const showTextus=document.getElementById('TextCont')
 
 
-
+//eventes
 BtnAddO.addEventListener('click',()=>{
     const OutInput=InputTodoO.value.trim();
     if(OutInput===""){
