@@ -12,13 +12,27 @@ function rendertodos() {
     UlTodoO.innerHTML = '';
     // creat ForEech
     todoArray.forEach((item) => {
+        const carddiv=document.createElement('div')
+        const clearbtn=document.createElement('div');
+        const checkbox=document.createElement('input');
         const card = document.createElement('li');
+         //style
         card.classList.add('Classli');
-        card.textContent = item;
         UlTodoO.classList.add('Classul');
+        carddiv.classList.add('Classdiv');
+        checkbox.classList.add('input')
+
+        checkbox.setAttribute('type','checkbox')
+        card.textContent = item; 
+      
+
         UlTodoO.appendChild(card);
+        UlTodoO.appendChild(carddiv);
+        carddiv.appendChild(card);
+        carddiv.appendChild(checkbox);
     });
 };
+
 
 // function addtodo
 

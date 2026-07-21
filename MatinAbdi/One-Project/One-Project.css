@@ -1,24 +1,52 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20rem;
 }
 
-.Classli{
-    border: 1px solid red;
-    width:17rem;
-    text-align: center;
-    margin: 0;
+.Classdiv {
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: 1px solid rgb(42, 23, 211);
 }
-.Classul{
+
+.inputclass{
+    width: 26rem;
+    height: 2rem;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+.classBtnAdd{
+    width:50px;
+    height:38px;
+}
+input[type='checkbox']{
+    width: 20px;
+}
+.Classli {
     border: 1px solid red;
+    width: 200px;
+    height: 40px;
+    text-align: right;
+    margin:0;
+    background-color: rgba(173, 173, 173, 0.829);
+    padding: 15px;
+
+}
+
+.Classul {
+    border: 1px solid rgb(43, 219, 27);
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0;
-    background-color: blueviolet;
+    padding: 10px;
+
 
 }
