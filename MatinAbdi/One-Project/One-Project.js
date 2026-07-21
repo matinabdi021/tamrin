@@ -34,6 +34,7 @@ function rendertodos() {
 };
 
 
+<<<<<<< HEAD
 // function addtodo
 
 function addtodo(text) {
@@ -48,6 +49,13 @@ BtnAddO.addEventListener('click', () => {
     const inputtext = InputTodoO.value.trim();
     if (inputtext === "") {
         showTextus.textContent = ' لطفا مقداری را وارد کنید';
+=======
+//test
+BtnAddO.addEventListener('click',()=>{
+    const OutInput=InputTodoO.value.trim();
+    if(OutInput===""){
+        showTextus.textContent='لطفا مقداری را وارد کنید';
+>>>>>>> main
         return;
     }
     showTextus.textContent = '';
