@@ -4,27 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>One Project</title>
-    <link rel="stylesheet" href="/my-project/MatinAbdi/One-Project/One-Project.css">
+    <link rel="stylesheet" href="One-Project.css">
 </head>
 <body>
-    <!-- Todo List -->
-
-    <Main>
-        <!-- boxCont -->
-        <div class="Box-Container">
-            <!-- input todo -->
-            <input type="text" class="inputclass" id="InputTodo">
-            <!-- Btn Add -->
-            <button id="BtnAdd" class="classBtnAdd">Add</button>
-            <!-- Btn remove -->
-            <button id="BtnDel" >Delete</button>
-            <!-- ul List -->
-            <ul id="ListItemUl"></ul>
-            <!-- Text Continer -->
-            <p id="TextCont"></p>
+   
+    <main class="main-continer">
+        <!-- Continer Form Sing Up -->
+        <div class="continer">
+            <div class="form">
+                <h1 class="titleheaderSite">Sing Up</h1>
+                <!-- input UserName -->
+                <input class="inputUserName" type="text" name="" id="inputUserName" onfocus="ipUSFofunc()" onblur="ipUSBLfunc()">
+                <span class="span-Error" id="errorUserName" ></span>
+                <!-- input Email -->
+                <input class="inputEmail" type="email" id="inputEmail" onfocus="ipEMFofunc()" onblur="ipEMBLfunc()" >
+                <span class="span-Error" id="errorEmail"></span>
+                <!-- input Password -->
+                <input class="inputPassWord" type="passWord" id="InputpassWord" onfocus="ipPWFofunc()" onblur="ipPWBLfunc()">
+                <span class="span-Error" id="errorPasword"></span>
+                <!-- Continer btn -->
+                <div class="Continer_btn">
+                    <button class="Btn-singUp">SingUp</button>
+                </div>
+            </div>
+            <!-- Continer back -->
+            <div class="backgrund"></div>
         </div>
-    </Main>
-
+    </main>
+   
     <script src="One-Project.js"></script>
 </body>
 </html>
