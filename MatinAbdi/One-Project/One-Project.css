@@ -1,24 +1,109 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20rem;
-}
-
-.Classli{
-    border: 1px solid red;
-    width:17rem;
-    text-align: center;
+body {
     margin: 0;
+    padding: 0;
+    height: auto;
 }
-.Classul{
-    border: 1px solid red;
-    list-style: none;
+/* main */
+.main-continer {
+    background-image: url(/MatinAbdi/One-Project/img/img2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+/* continer Form */
+.continer {
+    height: 15rem;
+    display: flex;
+    background-color: white;
+    padding: 4rem;
+    border-radius: 8px;
+    box-shadow:-1px 3px 23px 28px rgb(20, 5, 71);
+    gap: 5px;
+}
+/* form inputs */
+.form {
+    width:20rem;
+    height:19rem;
+    display: flex;
     flex-direction: column;
-    padding: 0;
-    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
 
+    margin-top:-50px;
+}
+/* form img backgrund */
+.backgrund {
+    background-image: url(/MatinAbdi/One-Project/img/img1.jpg);
+    width: 18rem;
+    height:rem;
+    margin: 0;
+    border-radius: 8px;
+    background-size:cover;
+    background-position: center;
+
+}
+/* img back */
+.backgrund img {
+    border-radius: 8px;
+    background-image: url(/MatinAbdi/One-Project/img/img1.jpg);
+    width: 100%;
+    height: 100%;
+
+}
+/* title Header */
+.titleheaderSite {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(65, 65, 65);
+}
+
+.inputUserName{
+    width:15rem;
+    height:1.5rem;
+    border-radius:5px;
+    border:none;
+    border:1px solid rgb(163, 156, 156);
+    padding-left:20px;
+    
+}
+
+/* input Email */
+.inputEmail {
+    width:15rem;
+    height:1.5rem;
+    border-radius:5px;
+    border: none;
+    border: 1px solid rgb(163, 156, 156);
+    padding-left:20px;
+}
+/* input PassWord */
+.inputPassWord {
+    width:15rem;
+    height:1.5rem;
+    border-radius:5px;
+    border: none;
+    border: 1px solid rgb(163, 156, 156);
+    padding-left:20px;
+}
+/* continer BTN SINGUP */
+.Continer_btn
+/* BtN SinUP */
+ .Btn-singUp{
+    width: 16.5rem;
+    height: 2rem;
+    border-radius:8px;
+    border: none;
+    color: aliceblue;
+    background-color:     rgb(65, 65, 65);;
+}
+ .Btn-singUp:hover{
+  
+    background-color:     rgb(201, 34, 34);;
+}
+.span-Error{
+   font-size:13px;
+   margin-left:-10rem;
 }
