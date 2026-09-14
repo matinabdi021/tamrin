@@ -1,0 +1,164 @@
+
+
+body{
+  
+    overflow: hidden;
+
+}
+.bacGroundthame{
+  background-color: #2c2c2c;
+}
+.boxcolor {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(35deg, #ffff3f, #aacc00);
+}
+.boxcolor1 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(35deg, #003fc7, #00b4d8);
+}
+.boxcolor2 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(45deg, #5a189a, #9d4edd);
+}
+.boxcolor3 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(45deg, #ff4d6d, #c77dff);
+}
+.boxcolor4 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(45deg, #ff8800, #ffea00);
+}
+.boxcolor5 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(45deg, #ccff33, #38b000);
+}
+.boxcolor6 {
+  width: 20px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background: linear-gradient(45deg, #ff0a54, #fbb1bd);
+}
+.h-w {
+  height: 3rem;
+  width: 30rem;
+}
+#ullisttodo {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+.h-w-container {
+  width: 35rem;
+  height: 35rem;
+}
+/* lI */
+.listyle {
+  width: 30rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(white);
+}
+/* p */
+.pstyle {
+  width: 24rem;
+  font-size: 20px;
+  color: #2c2c2c;
+}
+/* i */
+.istyle {
+  font-size: 20px;
+  color: #535252;
+  margin-right: 18px;
+  cursor: pointer;
+}
+/* inpout */
+/* lebale */
+label {
+  cursor: pointer;
+}
+
+label input {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]:checked + .checkmark {
+  background-color: rgb(40, 133, 233);
+}
+label input:checked + .checkmark::after {
+  content: "✓";
+  color: white;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.checkmark {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .h-w-container {
+    width: 25rem;
+    height: 40rem;
+  }
+  /* استایل موبایل */
+  .h-w {
+    height: 3rem;
+    width: 17rem;
+    margin-right: 35px;
+  }
+  #ullisttodo {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+
+  .listyle {
+    width: 19rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(white);
+  }
+}
+.line-through {
+  text-decoration: line-through;
+}
+.back {
+  background-color: rgb(221, 76, 76);
+}

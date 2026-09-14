@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>newTodolist</title>
+    <!-- link bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/newtodolist/todolist.css" />
+    
+  </head>
+  <body >
+    <main  id="mainorg"
+      style="height: 100vh;background-color: blue;"
+      class="container-fluid  border d-flex justify-content-center align-items-center"
+     
+    >
+
+      <div
+        id="parent"
+        style="background-color: rgba(255, 255, 255, 0.507)"
+        class="container-lg  container-md d-flex justify-content-md-center h-w-container col-12 col-md-6 col-lg-4 d-flex flex-column rounded-4 d-flex align-items-center border justify-content-center border-primary"
+      >
+
+      
+        <!-- Color box -->
+         
+        <div style="height: 5rem" class="color">
+          
+          <div
+            style="height:32px; gap:2px; width:100%; margin-left:-2px; justify-content: space-between;"
+            class="row mb-2 p-0 d-flex align-items-center bg-white rounded-2"
+          >
+            <div style="width:11.5rem;" class="row  m-0 p-0">
+            <div id="colortag" class="boxcolor"></div>
+            <div id="colortag" class="boxcolor1"></div>
+            <div id="colortag" class="boxcolor2"></div>
+            <div id="colortag" class="boxcolor3"></div>
+            <div id="colortag" class="boxcolor4"></div>
+            <div id="colortag" class="boxcolor5"></div>
+            <div id="colortag" class="boxcolor6"></div>
+            </div>
+            <button id="icon" style="width:30px; height:30px; position: relative; border-radius: 8px; background-color:white; border:none; ;" class="thameclas">
+              <img  style="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left: 0;"  src="/newtodolist/icon/icons8-moon.gif" alt="">
+<!--               <imgstyle="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left: 0;" src="/newtodolist/icon/icons8-sun (2).gif" alt="">
+            --></button>
+
+          </div>
+          <!-- input -->
+          <div class="col-sm-6 h-w p-0">
+            
+            <input
+              style="
+                width:85%;
+                height:100%;
+                background-color: rgb(255, 255, 255);
+              "
+              placeholder="Add Your Task name"
+              type="text"
+              class="position-reletive ps-4 border-0 rounded-start-2 m-0"
+              name=""
+              id="inputUser"
+            />
+            <button
+              id="btnTodo"
+              style="width: 4.5rem; height: 3rem"
+              class="bg-primary text-white fw-bold border-0 rounded-end-2 position-absolute"
+            >
+              ADD
+            </button>
+          </div>
+        </div>
+        <!-- ul -->
+        <ul class="d-flex flex-column" id="ullisttodo">
+          <!-- li --> 
+           
+         
+        </ul>
+      <div style="display: flex; gap: 10px;" class=" d-flex w-75 flex-md-row flex-lg-row flex-sm-column justify-content-lg-center justify-content-md-center justify-content-sm-center">
+        <div style="width:90px;" class=" col-3 m-0" >Active
+          <span id="active">0</span>
+        </div>
+        <div style="width:90px;" class=" col-3 m-0" >All:
+          <span id="all" >0</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </span>
+        </div>
+        <div style="width:100px;" class=" col-6 m-0">completed:
+          <span id="completed">0</span>
+        </div>
+        
+      </div>
+      </div>
+    </main>
+    <script src="todolist.js"></script>
+  </body>
+</html>
