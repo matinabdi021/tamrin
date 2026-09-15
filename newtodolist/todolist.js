@@ -35,9 +35,9 @@ mainElement.addEventListener("click", (e) => {
   }
   isDark
     ? (icon.innerHTML =
-        '<img style="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left:0.5px;" src="/newtodolist/icon/icons8-sun (2).gif" alt="">')
+        '<img style="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left:0.5px;" src="icon/icons8-sun (2).gif" alt="">')
     : (icon.innerHTML =
-        '<img id="icon" style="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left: 0;"  src="/newtodolist/icon/icons8-moon.gif" alt="">');
+        '<img id="icon" style="width:26px; height:26px; border-radius: 10px; position: absolute; top: 0; left: 0;"  src="icon/icons8-moon.gif" alt="">');
   isDark
     ? (mainorg.style.backgroundColor = "black")
     : (mainorg.style.backgroundColor = "blue");
